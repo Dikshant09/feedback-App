@@ -53,6 +53,10 @@ export const FeedbackProvider = ({ children }) => {
     setFeedback(
       feedback.map((item) => (item.id === id ? { ...item, ...updItem } : item))
     );
+    setFeedbackEdit({
+      item: {},
+      edit: false,
+    });
   };
 
   // These are the global state : means this states are available in every component and can be use via useContext hook
