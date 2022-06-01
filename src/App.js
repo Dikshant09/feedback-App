@@ -7,7 +7,7 @@ import FeedbackStats from './components/FeedbackStats.jsx';
 import FeedbackForm from './components/FeedbackForm.jsx';
 import About from './pages/About.jsx';
 
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AboutIconLink from './components/AboutIconLink.jsx';
 
 const App = () => {
